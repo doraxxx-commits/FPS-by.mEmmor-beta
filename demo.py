@@ -3,6 +3,9 @@ Demo Etapu 1: czas + sezony + mecze + tabela.
 
 Uruchomienie: python demo.py
 """
+from flask import Flask
+
+app = Flask(__name__)
 
 import random
 
